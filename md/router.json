@@ -6,35 +6,76 @@
       "meta": {
         "key": 0,
         "icon": "icon-compass",
-        "title": "首页",
+        "title": "快速上手",
         "level": 1
       },
       "children": [
         {
           "path": "index",
-          "name": "index",
           "meta": {
-            "name": "index",
             "key": 0,
+            "icon": "icon-disc",
             "title": "前言",
-			"icon": "icon-disc",
-			"path": "/index",
             "fullpath": "/index/index",
+            "parentpath": ["/index"],
             "level": 2
           }
         },
         {
-          "path": "about",
-          "name": "about",
+          "path": "install",
           "meta": {
-            "name": "about7",
             "key": 0,
-            "title": "关于",
-			"icon": "icon-disc",
-			"path": "/index",
-            "fullpath": "/index/about",
+            "icon": "icon-disc",
+            "title": "安装",
+            "fullpath": "/index/install",
+            "parentpath": ["/index"],
             "level": 2
           }
+        },
+        {
+          "path": "import",
+          "meta": {
+            "key": 0,
+            "icon": "icon-disc",
+            "title": "引入",
+            "fullpath": "/index/import",
+            "parentpath": ["/index"],
+            "level": 2
+          }
+        }
+      ]
+    },
+    {
+      "path": "/ceshi",
+      "meta": {
+        "key": 0,
+        "icon": "icon-compass",
+        "title": "测试",
+        "level": 1
+      },
+      "children": [
+        {
+          "path": "ceshi1",
+          "meta": {
+            "key": 0,
+            "icon": "icon-disc",
+            "title": "测试1",
+            "parentpath": ["/ceshi"],
+            "level": 2
+          },
+          "children": [
+            {
+              "path": "ceshi2",
+              "meta": {
+                "key": 0,
+                "icon": "icon-disc",
+                "title": "测试2",
+                "parentpath": ["/ceshi", "ceshi1"],
+                "fullpath": "/ceshi/ceshi1/ceshi2",
+                "level": 3
+              }
+            }
+          ]
         }
       ]
     }
