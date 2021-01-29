@@ -44,6 +44,61 @@
           }
         }
       ]
+    },
+    {
+      "path": "/option",
+      "meta": {
+        "key": 0,
+        "icon": "icon-compass",
+        "title": "配置",
+        "level": 1
+      },
+      "children": [
+        {
+          "path": "pagination",
+          "meta": {
+            "key": 0,
+            "icon": "icon-disc",
+            "title": "分页配置",
+            "fullpath": "/option/pagination",
+            "parentpath": ["/option"],
+            "level": 2
+          }
+        },
+        {
+          "path": "empty",
+          "meta": {
+            "key": 0,
+            "icon": "icon-disc",
+            "title": "空数据配置",
+            "fullpath": "/option/empty",
+            "parentpath": ["/option"],
+            "level": 2
+          }
+        },
+        {
+          "path": "refresh",
+          "meta": {
+            "key": 0,
+            "icon": "icon-disc",
+            "title": "下拉配置",
+            "fullpath": "/option/refresh",
+            "parentpath": ["/option"],
+            "level": 2
+          }
+        },
+        {
+          "path": "loadmore",
+          "meta": {
+            "key": 0,
+            "icon": "icon-disc",
+            "title": "上拉配置",
+            "fullpath": "/option/loadmore",
+            "parentpath": ["/option"],
+            "level": 2
+          }
+        }
+      ]
     }
   ]
 }
