@@ -44,40 +44,6 @@
           }
         }
       ]
-    },
-    {
-      "path": "/ceshi",
-      "meta": {
-        "key": 0,
-        "icon": "icon-compass",
-        "title": "测试",
-        "level": 1
-      },
-      "children": [
-        {
-          "path": "ceshi1",
-          "meta": {
-            "key": 0,
-            "icon": "icon-disc",
-            "title": "测试1",
-            "parentpath": ["/ceshi"],
-            "level": 2
-          },
-          "children": [
-            {
-              "path": "ceshi2",
-              "meta": {
-                "key": 0,
-                "icon": "icon-disc",
-                "title": "测试2",
-                "parentpath": ["/ceshi", "ceshi1"],
-                "fullpath": "/ceshi/ceshi1/ceshi2",
-                "level": 3
-              }
-            }
-          ]
-        }
-      ]
     }
   ]
 }
