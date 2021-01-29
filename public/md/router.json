@@ -1,0 +1,42 @@
+{
+  "logo": "Coolui Scroll",
+  "nav": [
+    {
+      "path": "/index",
+      "meta": {
+        "key": 0,
+        "icon": "icon-compass",
+        "title": "首页",
+        "level": 1
+      },
+      "children": [
+        {
+          "path": "index",
+          "name": "index",
+          "meta": {
+            "name": "index",
+            "key": 0,
+            "title": "前言",
+			"icon": "icon-disc",
+			"path": "/index",
+            "fullpath": "/index/index",
+            "level": 2
+          }
+        },
+        {
+          "path": "about",
+          "name": "about",
+          "meta": {
+            "name": "about7",
+            "key": 0,
+            "title": "关于",
+			"icon": "icon-disc",
+			"path": "/index",
+            "fullpath": "/index/about",
+            "level": 2
+          }
+        }
+      ]
+    }
+  ]
+}
