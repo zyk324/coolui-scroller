@@ -25,7 +25,7 @@
           "path": "install",
           "meta": {
             "key": 0,
-            "icon": "icon-disc",
+            "icon": "icon-download",
             "title": "安装",
             "fullpath": "/index/install",
             "parentpath": ["/index"],
@@ -49,7 +49,7 @@
       "path": "/option",
       "meta": {
         "key": 0,
-        "icon": "icon-compass",
+        "icon": "icon-settings",
         "title": "配置",
         "level": 1
       },
@@ -58,7 +58,7 @@
           "path": "pagination",
           "meta": {
             "key": 0,
-            "icon": "icon-disc",
+            "icon": "icon-more-horizontal",
             "title": "分页配置",
             "fullpath": "/option/pagination",
             "parentpath": ["/option"],
@@ -69,7 +69,7 @@
           "path": "empty",
           "meta": {
             "key": 0,
-            "icon": "icon-disc",
+            "icon": "icon-alert-circle",
             "title": "空数据配置",
             "fullpath": "/option/empty",
             "parentpath": ["/option"],
@@ -80,7 +80,7 @@
           "path": "refresh",
           "meta": {
             "key": 0,
-            "icon": "icon-disc",
+            "icon": "icon-arrow-down",
             "title": "下拉配置",
             "fullpath": "/option/refresh",
             "parentpath": ["/option"],
@@ -91,7 +91,7 @@
           "path": "loadmore",
           "meta": {
             "key": 0,
-            "icon": "icon-disc",
+            "icon": "icon-arrow-up",
             "title": "上拉配置",
             "fullpath": "/option/loadmore",
             "parentpath": ["/option"],
