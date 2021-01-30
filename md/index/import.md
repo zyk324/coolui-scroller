@@ -19,7 +19,7 @@
 			</view>
 </coolui-scroll>
 ```
-### 然后在js的data中进行配置参数设置 (详见api)
+### 然后在js的data中进行配置参数设置 (详见[配置](/index.html#/option/index))
 ```js
 // data 中配置
 scroll: {

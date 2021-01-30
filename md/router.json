@@ -55,6 +55,17 @@
       },
       "children": [
         {
+          "path": "index",
+          "meta": {
+            "key": 0,
+            "icon": "icon-sliders",
+            "title": "配置",
+            "fullpath": "/option/index",
+            "parentpath": ["/option"],
+            "level": 2
+          }
+        },
+        {
           "path": "pagination",
           "meta": {
             "key": 0,

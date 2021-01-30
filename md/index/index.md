@@ -18,7 +18,7 @@ Page({
 ```
 这三个方法就能实现简单的效果。但是往往项目中实际的需求会复杂的多。
 例如这种：<br/><br/>
-![avatar](https://raw.githubusercontent.com/wzs28150/coolui-scroller/web/images/scroll1.gif)<br/><br/>
+![首页示例]](https://raw.githubusercontent.com/wzs28150/coolui-scroller/web/images/scroll1.gif)<br/><br/>
 顶部的菜单需要定位在头部而且还可以切换的时候这个页面级的方法就不那么好用了。而且大部分时候我们希望的滚动并不一定是页面级的。
 <br/>
 <br/>
