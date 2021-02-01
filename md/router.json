@@ -110,6 +110,39 @@
           }
         }
       ]
+    },
+    {
+      "path": "/api",
+      "meta": {
+        "key": 0,
+        "icon": "icon-settings",
+        "title": "事件方法",
+        "level": 1
+      },
+      "children": [
+        {
+          "path": "events",
+          "meta": {
+            "key": 0,
+            "icon": "icon-sliders",
+            "title": "事件",
+            "fullpath": "/api/events",
+            "parentpath": ["/api"],
+            "level": 2
+          }
+        },
+        {
+          "path": "methods",
+          "meta": {
+            "key": 0,
+            "icon": "icon-sliders",
+            "title": "方法",
+            "fullpath": "/api/methods",
+            "parentpath": ["/api"],
+            "level": 2
+          }
+        }
+      ]
     }
   ]
 }
