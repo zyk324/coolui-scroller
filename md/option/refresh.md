@@ -14,7 +14,7 @@
 | shake | 下拉时是否开启震动  | _Boolean_ |  | 2.0.0 | 
 
 ### 情况一：使用官方的原有效果：
-> 示例：
+> 示例：在这个效果中无需写页面结构，我们可以设置深色浅色及背景颜色等
 
 ![基础用法](https://raw.githubusercontent.com/wzs28150/coolui-scroller/web/images/refresh1.jpg)
 
@@ -33,7 +33,7 @@
     },
 ```
 ### 情况二：我们推荐的组件的基础效果：
-> 示例：在这个效果中我们可以设置下拉文字(title)、下拉图标(icon)、下拉背景(background)、下拉高度等(height)。
+> 示例：在这个效果中无需写页面结构，我们可以设置下拉文字(title)、下拉图标(icon)、下拉背景(background)、下拉高度等(height)。
 
 ![推荐用法](https://raw.githubusercontent.com/wzs28150/coolui-scroller/web/images/refresh2.gif)
 > 配置：
