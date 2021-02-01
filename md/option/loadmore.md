@@ -28,3 +28,25 @@
       }
     },
 ```
+### 情况二：使用插槽完全自定义：
+> 示例：
+
+![基础用法](https://raw.githubusercontent.com/wzs28150/coolui-scroller/web/images/loadmore2.jpg)
+
+> 页面结构
+```html
+    <coolui-scroll scrollOption="{{Option}}">
+        <view class="diyload" slot="loadmore">
+			<image class="ico" mode="aspectFill" src="http://upload-images.jianshu.io/upload_images/5726812-95bd7570a25bd4ee.gif" />
+			上拉加载中
+		</view>
+    </coolui-scroll>           
+```
+> js
+```js
+    Option: {
+        loadmore: {
+            type: 'diy'
+        }
+    },
+```
