@@ -115,7 +115,7 @@
       "path": "/api",
       "meta": {
         "key": 0,
-        "icon": "icon-settings",
+        "icon": "icon-codepen",
         "title": "事件方法",
         "level": 1
       },
